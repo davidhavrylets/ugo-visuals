@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- ПЛАВНАЯ ПРОКРУТКА --- */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Оставляем переменную черной, вдруг пригодится для других элементов */
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  /* ИЗМЕНЕНИЕ ЗДЕСЬ: */
+  /* Было: background: var(--background); */
+  /* Стало: background: transparent; */
+  /* Мы делаем тело страницы прозрачным, чтобы видеть видео, которое лежит "под" ним */
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+}
