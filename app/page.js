@@ -122,7 +122,9 @@ export default async function Home() {
         </section>
       )}
 
-      {/* Кнопка в самом низу */}
+      {/* Кнопка в самом низу 
+
+      
       <div className="pb-20 text-center">
         <Link 
           href="/projects" 
@@ -130,8 +132,8 @@ export default async function Home() {
         >
           Voir tous les projets
         </Link>
-      </div>
-
+      </div> 
+      */}
     </main>
   );
 }
