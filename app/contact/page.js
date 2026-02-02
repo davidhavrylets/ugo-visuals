@@ -105,9 +105,9 @@ export default function Contact() {
               Réseaux Sociaux
             </h3>
             <div className="flex gap-8 text-lg text-gray-300 justify-center md:justify-start">
-              <a href="#" className="hover:text-white transition-colors">Instagram</a>
+              <a href="https://www.instagram.com/ugo.visuals/" className="hover:text-white transition-colors">Instagram</a>
               <a href="#" className="hover:text-white transition-colors">YouTube</a>
-              <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/ugo-pichon-130aa4253/?originalSubdomain=fr" className="hover:text-white transition-colors">LinkedIn</a>
             </div>
           </div>
 

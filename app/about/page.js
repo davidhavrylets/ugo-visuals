@@ -67,7 +67,7 @@ export default async function About() {
           {/* Статистика */}
           <div className="grid grid-cols-3 gap-4 py-6 border-y border-gray-800 my-6">
             <div>
-              <span className="block text-3xl font-bold">5+</span>
+              <span className="block text-3xl font-bold">2+</span>
               <span className="text-xs text-gray-500 uppercase">Années d'expérience</span>
             </div>
             <div>
@@ -75,7 +75,7 @@ export default async function About() {
               <span className="text-xs text-gray-500 uppercase">Projets réalisés</span>
             </div>
             <div>
-              <span className="block text-3xl font-bold">15+</span>
+              <span className="block text-3xl font-bold">10+</span>
               <span className="text-xs text-gray-500 uppercase">Pays visités</span>
             </div>
           </div>
