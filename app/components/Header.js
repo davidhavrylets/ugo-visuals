@@ -6,7 +6,9 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
 
-  // УДАЛЕНО: Блок проверки pathname === "/contact"
+  // ДОБАВЬ ЭТУ СТРОЧКУ:
+  // Если адрес начинается с /studio, Header вообще не будет рендериться
+  if (pathname.startsWith("/studio")) return null;
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 mix-blend-difference py-6 flex flex-col items-center text-white">
@@ -21,7 +23,6 @@ export default function Header() {
 
       {/* Навигация */}
       <nav className="flex gap-8">
-        
         <Link 
           href="/#videos" 
           className="text-xs font-medium uppercase tracking-widest hover:text-gray-400 transition-colors"
@@ -53,7 +54,6 @@ export default function Header() {
         >
           Contact
         </Link>
-
       </nav>
     </header>
   );
